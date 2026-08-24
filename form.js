@@ -41,7 +41,7 @@ form.addEventListener('submit', (e) => {
   document.querySelector('.mail').value.trim() === "" ||
   txt.value.trim() === "" ||
   !rad1.checked &&
-  !rad2.checked &&
+  !rad2.checked ||
   !checkbox.checked
     ){
     suc.style.display = 'none'
