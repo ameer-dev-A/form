@@ -145,7 +145,6 @@ input[type="checkbox"] {
     .attribution a { color: hsl(228, 45%, 44%); }
 
 @media(max-width:400px){
-form{padding :5px} 
   input{width: 100%;}
   .mail{width: 100%;}
   .name,.name2{
