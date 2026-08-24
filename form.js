@@ -38,10 +38,10 @@ form.addEventListener('submit', (e) => {
     er[5].style.display = 'none';
   }
   if(
-  document.querySelector('.first').value.trim() === "" &&
-  document.querySelector('.last').value.trim() === "" &&
-  document.querySelector('.mail').value.trim() === "" &&
-  txt.value.trim() === "" &&
+  document.querySelector('.first').value.trim() === ""  ||
+  document.querySelector('.last').value.trim() === "" ||
+  document.querySelector('.mail').value.trim() === "" ||
+  txt.value.trim() === "" ||
   !rad1.checked &&
   !rad2.checked &&
   !checkbox.checked
@@ -49,6 +49,6 @@ form.addEventListener('submit', (e) => {
     suc.style.display = 'none'
   }else{
      suc.style.display = 'block'
-     form.style.marginTop ="-20px"
+     form.style.marginTop ="-40px"
   }
    })
