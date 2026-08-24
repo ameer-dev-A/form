@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <meta property="og:title" content="form compounent ">
+<meta property="og:description" content="form compounent">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ameer-dev-a.github.io/form/">
+<meta property="og:image" content="https://ameer-dev-a.github.io/form/design/error-state.jpg">
+<meta property="og:image:alt" content="form compounent">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="form.css">
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+  <div class="suc">
+    <div class="icon">
+      <img src="assets/images/icon-success-check.svg" width="25px" height="25px">
+      <h4>Message Sent!</h4>
+    </div>
+      <p>  Thanks for completing the form. We'll be in touch soon!</p>
+  </div>
+    <form>
+    <h1>Contact Us</h1>
+
+    <div class="name">
+      <div class="f">
+            <label for="fname">First Name  *</label><br>
+    <input type="text" class="first" name="first" aria-describedby="error" autocomplete="fname" required>
+    <p class="error">This field is required</p>
+      </div>
+
+    <div class="l">
+           <label for="lname">Last Name  *</label><br>
+    <input type="text" class="last" name="last" aria-describedby="error" autocomplete="lname" required>
+    <p class="error">This field is required</p>
+    </div>
+
+    </div>
+
+    <label for="mail">Email Address  *</label><br>
+    <input type="email" class="mail" name="mail" aria-describedby="error" required>
+    <p class="error"> Please enter a valid email address</p>
+    
+   <div class="lab">
+     <label class="query">Query Type  *</label>
+    <div class="name2">
+      <div class="ff">
+    <input type="radio" class="rad1" name="rad" required>
+     <label>General Enquiry</label>
+      </div>
+
+    <div class="ll">
+    <input type="radio" class="rad2" name="rad" aria-describedby="error"  required>
+    <label>Support Request</label>
+    </div>
+    </div>
+     <p class="error"> Please select a query type</p>
+   </div>
+   
+
+    <label> Message  *</label>
+    <br>
+    <textarea class="txt" aria-describedby="error"></textarea>
+    <p class="error">This field is required</p>
+
+     <div class="chk">
+      <input type="checkbox" class="ch" aria-describedby="error">
+      <label>I consent to being contacted by the team</label>
+     </div>
+     <p class="error"> To submit this form, please consent to being contacted</p>
+    
+
+     <button type="submit" class="btn"> Submit</button>
+  </form>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ameer-dev-A">Ameer</a>.
+  </footer>
+
+  <script src="form.js"></script>
+
+</body>
+</html>
