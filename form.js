@@ -1,6 +1,4 @@
-let inputs = document.querySelectorAll(
-  'input[type="text"], input[type="email"]'
-);
+let inputs = document.querySelectorAll('input');
    const rad1 = document.querySelector('.rad1');
    const rad2 = document.querySelector('.rad2');
    let txt = document.querySelector('.txt');
@@ -49,6 +47,6 @@ form.addEventListener('submit', (e) => {
     suc.style.display = 'none'
   }else{
      suc.style.display = 'block'
-     form.style.marginTop ="-40px"
+     form.style.marginTop ="10px"
   }
    })
