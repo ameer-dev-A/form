@@ -1,4 +1,6 @@
-  let inputs = document.querySelectorAll('input');
+let inputs = document.querySelectorAll(
+  'input[type="text"], input[type="email"]'
+);
    const rad1 = document.querySelector('.rad1');
    const rad2 = document.querySelector('.rad2');
    let txt = document.querySelector('.txt');
