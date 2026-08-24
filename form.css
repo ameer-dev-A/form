@@ -152,5 +152,6 @@ input[type="checkbox"] {
   }
   .f,.l{width: 100%;}
   .name,.name2{width: 100%;}
-  .suc{width: 530px;margin: 0;}
+  .suc{width: 530px;
+margin-bottom: 10px;}
 }
